@@ -1,5 +1,5 @@
 # gosumemory-discord rich presence
-**This is a slightly rewritten command from my [Twitch Bot](https://github.com/robloxxa/ayantwitchbot/tree/master)** \
+**This is a slightly rewritten command from my [osu! Twitch Bot](https://github.com/robloxxa/ayantwitchbot/tree/master)** \
 Outputs additional data from your osu!client with gosumemory to Discord Activity
 ## Example
 [video](https://user-images.githubusercontent.com/42871188/128455072-7b1dbbdb-5c4d-4be5-9b2f-2ceb67a85b4c.mp4)
