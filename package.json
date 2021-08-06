@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "IF EXIST node_modules (node index) ELSE (npm install & node index)",
+    "build": "IF EXIST node_modules (node build) ELSE (npm i --save-prod & node build)"
   },
-  "keywords": [],
+  "keywords": ["discord rich presence", "osu!", "gosumemory", "osu", "discord activity"],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "discord-rpc": "^4.0.1",
     "ws": "^8.0.0"
+  },
+  "devDependencies": {
+    "caxa": "^2.1.0"
   }
 }
